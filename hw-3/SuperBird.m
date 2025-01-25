@@ -3,15 +3,20 @@
 @implementation SuperBird
 
 - (void)fly {
-    NSLog(@"The superbird was flying");
+    NSLog(@"The Superbird was flying");
 }
 
 - (void)fall {
-    NSLog(@"The superbird was falling");
+    NSLog(@"The Superbird was falling");
 }
 
 - (void)eat {
-    NSLog(@"The superbird was eating");
+    NSLog(@"The Superbird was eating");
+}
+
+- (void)dealloc {
+    NSLog(@"Superbird was dealloc");
+    [super dealloc];
 }
 
 @end

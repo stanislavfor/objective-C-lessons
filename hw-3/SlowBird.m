@@ -14,4 +14,9 @@
     NSLog(@"The Slowbird was eating");
 }
 
+- (void)dealloc {
+    NSLog(@"SlowBird was dealloc");
+    [super dealloc];
+}
+
 @end

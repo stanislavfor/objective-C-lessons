@@ -1,17 +1,24 @@
 #import "Bird.h"
+#import "Nest.h"
 
 @implementation Bird
 
+- (void)dealloc {
+    NSLog(@"Bird was dealloc");
+    [_nest release];
+    [super dealloc];
+}
+
 - (void)fly {
-    NSLog(@"The bird was flying");
+    NSLog(@"The Bird was flying");
 }
 
 - (void)fall {
-    NSLog(@"The bird was falling");
+    NSLog(@"The Bird was falling");
 }
 
 - (void)eat {
-    NSLog(@"The bird was eating");
+    NSLog(@"The Bird was eating");
 }
 
 @end

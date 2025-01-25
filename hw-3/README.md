@@ -24,3 +24,26 @@
    @property (nonatomic,copy) NSMutableArray *array;<br>
    @property (atomic,retain) NSNumber *number;<br>
    @property NSUInteger баланс;
+
+<br><br>
+   
+### Решение задачи
+
+<br>
+
+1.1. Создается объект класса Bird и вызываются его методы fly, fall, eat. <br>
+1.2. Создается объект класса SlowBird и вызываются его методы fly, fall, eat. <br>
+1.3. Создается объект класса SuperBird и вызываются его методы fly, fall, eat. <br>
+
+2.1. Методы fly, fall, eat каждого класса выводятся соответствующие строки в консоль. <br>
+
+3.1. Объекты SuperBird, SlowBird, Nest, и Bird освобождаются в порядке их создания, в каждом случае вызывается метод dealloc. <br>
+
+<br>
+
+#### Результат вывода в консоли программы:  <br> <br>
+
+![print](../archives/task-3.jpg)
+
+<br><br>
+
