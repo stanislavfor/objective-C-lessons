@@ -52,9 +52,11 @@ POST-запроса в соответствующих полях.
 4. backTapped - при нажатии на кнопку "BACK TO", возвращает на первый экран. <br>
 5. tableView numberOfRowsInSection - возвращает количество строк в таблице, равное количеству элементов в массиве data. <br>
 6. tableView cellForRowAtIndexPath - настраивает ячейки таблицы. <br>
-    **Loader** - отправляет GET-запрос на сервер с параметрами из строки запроса (fetchDataWithQuery completion) и <br>
+7. 
+**Loader** - отправляет GET-запрос на сервер с параметрами из строки запроса (fetchDataWithQuery completion) и <br>
 отправляет POST-запрос на сервер с параметрами из строки запроса. <br>
-    **AppDelegate и SceneDelegate** - настраивают начальное окно приложения и <br>
+
+**AppDelegate и SceneDelegate** - настраивают начальное окно приложения и <br>
 устанавливают FirstViewController в качестве корневого контроллера. <br>
 
 #### Примеры параметров GET-запроса и ответы
