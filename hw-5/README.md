@@ -36,7 +36,7 @@ POST-запроса в соответствующих полях.
 4. forwardButtonTapped: Вызывается при нажатии на кнопку "FORWARD". Переходит на второй экран (SecondViewController) и передает данные, полученные с сервера. <br>
 5. postButtonTapped - при нажатии на кнопку "POST" отправляет POST-запрос на сервер с параметрами из текстового поля postQueryTextField <br>
    и переводит на третью страницу (ThirdViewController) и передает данные, полученные с сервера. <br>
-6. 
+
 **SecondViewController** содержит методы: <br>
 1. viewDidLoad - настраивает интерфейс (setupUI) при загрузке второго экрана. <br>
 2. setupUI - создает и настраивает кнопку "RESET" (resetButton), кнопку "BACK TO" (backButton), таблицу (tableView). Устанавливает ограничения для элементов интерфейса. <br>
@@ -44,7 +44,7 @@ POST-запроса в соответствующих полях.
 4. backTapped - при нажатии на кнопку "BACK TO", возвращает на первый экран. <br>
 5. tableView numberOfRowsInSection - возвращает количество строк в таблице, равное количеству элементов в массиве data. <br>
 6. tableView cellForRowAtIndexPath - настраивает ячейки таблицы. <br>
-7. 
+
 **ThirdViewController** содержит методы: <br>
 1. viewDidLoad - настраивает интерфейс (setupUI) при загрузке третьего экрана.
 2. setupUI - создает и настраивает кнопки "RESET", "BACK TO", таблицу (tableView). <br>
